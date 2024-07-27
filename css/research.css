@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body
+{
+    background-image:url(../image/bg.jpg);   
+}
+.header
+{
+    width: 100%;
+    overflow-x: hidden;
+}
+.logo
+{
+    width: 150px;
+    margin: 20px 0;
+    cursor: pointer;
+    
+}
+
+nav
+{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+nav ul
+{
+    font-size:30px;
+    right: 255px;
+    border-radius: 130px;
+    outline-style: solid;
+    outline-color: lightsalmon;
+   
+}
+nav ul li
+{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 30px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: #000;
+    transition: 0.6s ease;
+    text-align: center;
+}
+nav ul li a :hover
+{
+    color: lightgoldenrodyellow;
+}
+
+/*Refrence page is style from here*/
+.column-ref 
+{
+    float: left;
+    width: 50%;
+    padding: 0 22px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.card-ref 
+{
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+    height: 460px;
+}
+
+.column-ref .card-ref .card img 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 625px;
+}
+
+.card-ref figcaption
+{
+    text-align: center;
+    font-size: 20px;
+   font-family: sans-serif;
+    margin-top: 10px;
+}
+
+
+
+
+
